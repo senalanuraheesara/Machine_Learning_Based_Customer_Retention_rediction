@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "total_configurations": 106,
+  "cv_fits": 318,
+  "published_models_unchanged": true,
+  "results": [
+    {
+      "model": "logistic_regression",
+      "n_iter": 10,
+      "best_cv_accuracy": 0.693337631635504,
+      "selected_cv_accuracy": 0.6918255503361888,
+      "validation_accuracy": 0.6828767123287671,
+      "threshold": 0.42500000000000004,
+      "eligible": true
+    },
+    {
+      "model": "decision_tree",
+      "n_iter": 32,
+      "best_cv_accuracy": 0.6821958183660312,
+      "selected_cv_accuracy": 0.6821958183660312,
+      "validation_accuracy": 0.660958904109589,
+      "threshold": 0.42500000000000004,
+      "eligible": true
+    },
+    {
+      "model": "random_forest",
+      "n_iter": 32,
+      "best_cv_accuracy": 0.6963786804212336,
+      "selected_cv_accuracy": 0.6963786804212336,
+      "validation_accuracy": 0.6787671232876712,
+      "threshold": 0.4,
+      "eligible": true
+    },
+    {
+      "model": "gradient_boosting",
+      "n_iter": 32,
+      "best_cv_accuracy": 0.6953685794111326,
+      "selected_cv_accuracy": 0.6953685794111326,
+      "validation_accuracy": 0.6801369863013699,
+      "threshold": 0.4,
+      "eligible": true
+    }
+  ],
+  "scope": "Complete documented randomized rerun, not exhaustive grid or exact historical replay; no test scoring"
+}

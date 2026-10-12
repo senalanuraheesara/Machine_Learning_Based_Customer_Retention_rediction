@@ -1,0 +1,26 @@
+Feature,Uses only observation window,Verification method
+recency_days,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+frequency_count,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+monetary_total,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+monetary_avg,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+monetary_std,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+tenure_days,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+history_days,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+purchase_interval_avg,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+purchase_interval_std,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+purchase_interval_cv,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+product_diversity,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+product_diversity_per_invoice,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+avg_quantity_per_invoice,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+return_rate,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+return_value,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+country,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+weekend_ratio,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+monthly_spend_std,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+monthly_spend_trend,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+days_since_first_purchase,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+purchase_velocity,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+purchases_per_month,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+spend_per_month,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+recency_ratio,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation
+active_months,Yes,All source rows filtered to InvoiceDate <= OBSERVATION_END before aggregation

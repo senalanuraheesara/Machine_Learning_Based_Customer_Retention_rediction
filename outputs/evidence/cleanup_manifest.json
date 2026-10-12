@@ -1,0 +1,996 @@
+{
+  "removed_file_count": 223,
+  "removed_bytes": 18207432,
+  "files": [
+    {
+      "path": "outputs/archive/documentation_before_cleanup_20261011.zip",
+      "bytes": 17488
+    },
+    {
+      "path": "outputs/archive/superseded_notebooks_20261011_014244.zip",
+      "bytes": 711053
+    },
+    {
+      "path": "outputs/archive/accuracy_optimization/candidate_names.json",
+      "bytes": 302
+    },
+    {
+      "path": "outputs/archive/accuracy_optimization/deployment_selection.json",
+      "bytes": 2342
+    },
+    {
+      "path": "outputs/archive/accuracy_optimization/incumbent_selection.json",
+      "bytes": 1526
+    },
+    {
+      "path": "outputs/archive/accuracy_optimization/protocol.json",
+      "bytes": 432
+    },
+    {
+      "path": "outputs/archive/accuracy_optimization/selection.json",
+      "bytes": 1983
+    },
+    {
+      "path": "outputs/archive/accuracy_optimization/validation_comparison.csv",
+      "bytes": 1870
+    },
+    {
+      "path": "outputs/archive/before_classical_optimization/best_model_bundle.joblib",
+      "bytes": 55965
+    },
+    {
+      "path": "outputs/archive/before_classical_optimization/final_test_metrics.csv",
+      "bytes": 270
+    },
+    {
+      "path": "outputs/archive/before_classical_optimization/selection.json",
+      "bytes": 1526
+    },
+    {
+      "path": "outputs/archive/before_classical_optimization/train_test_accuracy_summary.csv",
+      "bytes": 1647
+    },
+    {
+      "path": "outputs/archive/before_fit_control/03_03_random_forest.ipynb",
+      "bytes": 99010
+    },
+    {
+      "path": "outputs/archive/before_fit_control/best_model_bundle.joblib",
+      "bytes": 56692
+    },
+    {
+      "path": "outputs/archive/before_fit_control/model_workflow.py",
+      "bytes": 8628
+    },
+    {
+      "path": "outputs/archive/before_fit_control/random_forest.joblib",
+      "bytes": 563547
+    },
+    {
+      "path": "outputs/archive/before_fit_control/random_forest.json",
+      "bytes": 618
+    },
+    {
+      "path": "outputs/archive/before_fit_control/random_forest_cv.csv",
+      "bytes": 20961
+    },
+    {
+      "path": "outputs/archive/before_fit_control/random_forest_learning_curve.csv",
+      "bytes": 495
+    },
+    {
+      "path": "outputs/archive/before_fit_control/random_forest_metrics.csv",
+      "bytes": 446
+    },
+    {
+      "path": "outputs/archive/before_fit_control/random_forest_thresholds.csv",
+      "bytes": 16791
+    },
+    {
+      "path": "outputs/archive/before_fit_control/random_forest_validation_predictions.csv",
+      "bytes": 64868
+    },
+    {
+      "path": "outputs/archive/before_fit_control/selection.json",
+      "bytes": 2342
+    },
+    {
+      "path": "outputs/archive/before_fit_control/train_test_accuracy_summary.csv",
+      "bytes": 3943
+    },
+    {
+      "path": "outputs/archive/before_gradient_selection/03_05_model_comparison_selection.ipynb",
+      "bytes": 81680
+    },
+    {
+      "path": "outputs/archive/before_gradient_selection/best_model_bundle.joblib",
+      "bytes": 8840
+    },
+    {
+      "path": "outputs/archive/before_gradient_selection/final_test_metrics.csv",
+      "bytes": 274
+    },
+    {
+      "path": "outputs/archive/before_gradient_selection/selection.json",
+      "bytes": 1361
+    },
+    {
+      "path": "outputs/archive/clean_optimization/all_models_accuracy.csv",
+      "bytes": 5471
+    },
+    {
+      "path": "outputs/archive/clean_optimization/best_model_bundle.joblib",
+      "bytes": 1040443
+    },
+    {
+      "path": "outputs/archive/clean_optimization/decision_tree.joblib",
+      "bytes": 6996
+    },
+    {
+      "path": "outputs/archive/clean_optimization/fitting_audit.csv",
+      "bytes": 3643
+    },
+    {
+      "path": "outputs/archive/clean_optimization/FITTING_AUDIT.md",
+      "bytes": 7074
+    },
+    {
+      "path": "outputs/archive/clean_optimization/gradient_boosting.joblib",
+      "bytes": 54750
+    },
+    {
+      "path": "outputs/archive/clean_optimization/hist_gradient_boosting.joblib",
+      "bytes": 142098
+    },
+    {
+      "path": "outputs/archive/clean_optimization/kernel_logistic_regression.joblib",
+      "bytes": 103098
+    },
+    {
+      "path": "outputs/archive/clean_optimization/logistic_regression.joblib",
+      "bytes": 7722
+    },
+    {
+      "path": "outputs/archive/clean_optimization/optimized_decision_tree.joblib",
+      "bytes": 7556
+    },
+    {
+      "path": "outputs/archive/clean_optimization/optimized_logistic_regression.joblib",
+      "bytes": 8522
+    },
+    {
+      "path": "outputs/archive/clean_optimization/optimized_random_forest.joblib",
+      "bytes": 470891
+    },
+    {
+      "path": "outputs/archive/clean_optimization/protocol.json",
+      "bytes": 509
+    },
+    {
+      "path": "outputs/archive/clean_optimization/random_forest.joblib",
+      "bytes": 1039899
+    },
+    {
+      "path": "outputs/archive/clean_optimization/rejected_searches.json",
+      "bytes": 2
+    },
+    {
+      "path": "outputs/archive/clean_optimization/RESULTS.md",
+      "bytes": 4101
+    },
+    {
+      "path": "outputs/archive/clean_optimization/selected_learning_curve.csv",
+      "bytes": 477
+    },
+    {
+      "path": "outputs/archive/clean_optimization/selection.json",
+      "bytes": 609
+    },
+    {
+      "path": "outputs/archive/clean_optimization/soft_voting.joblib",
+      "bytes": 599219
+    },
+    {
+      "path": "outputs/archive/clean_optimization/spline_logistic_regression.joblib",
+      "bytes": 14778
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_hist_gradient_boosting.joblib",
+      "bytes": 57954
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_hist_gradient_boosting_search.csv",
+      "bytes": 106054
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_kernel_logistic_regression.joblib",
+      "bytes": 102906
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_kernel_logistic_regression_search.csv",
+      "bytes": 114276
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_optimized_decision_tree.joblib",
+      "bytes": 7300
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_optimized_decision_tree_search.csv",
+      "bytes": 102550
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_optimized_gradient_boosting.joblib",
+      "bytes": 122429
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_optimized_gradient_boosting_search.csv",
+      "bytes": 104172
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_optimized_logistic_regression.joblib",
+      "bytes": 8314
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_optimized_logistic_regression_search.csv",
+      "bytes": 73754
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_optimized_random_forest.joblib",
+      "bytes": 460059
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_optimized_random_forest_search.csv",
+      "bytes": 102409
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_spline_logistic_regression.joblib",
+      "bytes": 14570
+    },
+    {
+      "path": "outputs/archive/clean_optimization/updated_spline_logistic_regression_search.csv",
+      "bytes": 85691
+    },
+    {
+      "path": "outputs/archive/clean_optimization/validation_comparison.csv",
+      "bytes": 4265
+    },
+    {
+      "path": "outputs/archive/ensemble_accuracy/accuracy_summary.csv",
+      "bytes": 860
+    },
+    {
+      "path": "outputs/archive/ensemble_accuracy/best_model_bundle.joblib",
+      "bytes": 1040646
+    },
+    {
+      "path": "outputs/archive/ensemble_accuracy/cv_folds.csv",
+      "bytes": 1522
+    },
+    {
+      "path": "outputs/archive/ensemble_accuracy/forest_boosting.joblib",
+      "bytes": 537062
+    },
+    {
+      "path": "outputs/archive/ensemble_accuracy/linear_forest_boosting.joblib",
+      "bytes": 555181
+    },
+    {
+      "path": "outputs/archive/ensemble_accuracy/protocol.json",
+      "bytes": 859
+    },
+    {
+      "path": "outputs/archive/ensemble_accuracy/random_forest.joblib",
+      "bytes": 1039899
+    },
+    {
+      "path": "outputs/archive/ensemble_accuracy/RESULTS.md",
+      "bytes": 2073
+    },
+    {
+      "path": "outputs/archive/ensemble_accuracy/selection.json",
+      "bytes": 989
+    },
+    {
+      "path": "outputs/archive/ensemble_accuracy/spline_forest_hist.joblib",
+      "bytes": 658591
+    },
+    {
+      "path": "outputs/archive/ensemble_accuracy/validation_comparison.csv",
+      "bytes": 556
+    },
+    {
+      "path": "outputs/archive/models/best_model_bundle.joblib",
+      "bytes": 57081
+    },
+    {
+      "path": "outputs/archive/models/decision_tree.joblib",
+      "bytes": 6724
+    },
+    {
+      "path": "outputs/archive/models/decision_tree.json",
+      "bytes": 598
+    },
+    {
+      "path": "outputs/archive/models/gradient_boosting.joblib",
+      "bytes": 54430
+    },
+    {
+      "path": "outputs/archive/models/gradient_boosting.json",
+      "bytes": 632
+    },
+    {
+      "path": "outputs/archive/models/hist_gradient_boosting.joblib",
+      "bytes": 142082
+    },
+    {
+      "path": "outputs/archive/models/hist_gradient_boosting.json",
+      "bytes": 1958
+    },
+    {
+      "path": "outputs/archive/models/kernel_logistic_regression.joblib",
+      "bytes": 103098
+    },
+    {
+      "path": "outputs/archive/models/kernel_logistic_regression.json",
+      "bytes": 2239
+    },
+    {
+      "path": "outputs/archive/models/logistic_regression.joblib",
+      "bytes": 7514
+    },
+    {
+      "path": "outputs/archive/models/logistic_regression.json",
+      "bytes": 531
+    },
+    {
+      "path": "outputs/archive/models/optimized_decision_tree.joblib",
+      "bytes": 7556
+    },
+    {
+      "path": "outputs/archive/models/optimized_decision_tree.json",
+      "bytes": 2350
+    },
+    {
+      "path": "outputs/archive/models/optimized_logistic_regression.joblib",
+      "bytes": 8506
+    },
+    {
+      "path": "outputs/archive/models/optimized_logistic_regression.json",
+      "bytes": 2369
+    },
+    {
+      "path": "outputs/archive/models/optimized_random_forest.joblib",
+      "bytes": 470747
+    },
+    {
+      "path": "outputs/archive/models/optimized_random_forest.json",
+      "bytes": 1932
+    },
+    {
+      "path": "outputs/archive/models/random_forest.joblib",
+      "bytes": 1022555
+    },
+    {
+      "path": "outputs/archive/models/random_forest.json",
+      "bytes": 661
+    },
+    {
+      "path": "outputs/archive/models/selection.json",
+      "bytes": 2756
+    },
+    {
+      "path": "outputs/archive/models/setup.json",
+      "bytes": 995
+    },
+    {
+      "path": "outputs/archive/models/soft_voting.joblib",
+      "bytes": 599219
+    },
+    {
+      "path": "outputs/archive/models/soft_voting.json",
+      "bytes": 671
+    },
+    {
+      "path": "outputs/archive/models/spline_logistic_regression.joblib",
+      "bytes": 14778
+    },
+    {
+      "path": "outputs/archive/models/spline_logistic_regression.json",
+      "bytes": 2236
+    },
+    {
+      "path": "outputs/review/01_data_understanding.txt",
+      "bytes": 11431
+    },
+    {
+      "path": "outputs/review/02_preprocessing.txt",
+      "bytes": 27064
+    },
+    {
+      "path": "outputs/review/03_00_model_setup.txt",
+      "bytes": 2203
+    },
+    {
+      "path": "outputs/review/03_01_logistic_regression.txt",
+      "bytes": 4474
+    },
+    {
+      "path": "outputs/review/03_02_decision_tree.txt",
+      "bytes": 4478
+    },
+    {
+      "path": "outputs/review/03_03_random_forest.txt",
+      "bytes": 4554
+    },
+    {
+      "path": "outputs/review/03_04_gradient_boosting.txt",
+      "bytes": 4636
+    },
+    {
+      "path": "outputs/review/03_05_model_comparison_selection.txt",
+      "bytes": 5013
+    },
+    {
+      "path": "outputs/review/03_06_final_prediction.txt",
+      "bytes": 5651
+    },
+    {
+      "path": "outputs/review/04_segmentation.txt",
+      "bytes": 9580
+    },
+    {
+      "path": "outputs/review/05_final_report.txt",
+      "bytes": 1754
+    },
+    {
+      "path": "outputs/review/current_notebook_audit.txt",
+      "bytes": 105075
+    },
+    {
+      "path": "outputs/review/documentation_verification.json",
+      "bytes": 1676
+    },
+    {
+      "path": "outputs/review/proposal_workflow.png",
+      "bytes": 91081
+    },
+    {
+      "path": "outputs/figures/separate_modeling/comparison_selection.png",
+      "bytes": 98170
+    },
+    {
+      "path": "outputs/figures/separate_modeling/decision_tree_learning_curve.png",
+      "bytes": 37544
+    },
+    {
+      "path": "outputs/figures/separate_modeling/decision_tree_validation.png",
+      "bytes": 49923
+    },
+    {
+      "path": "outputs/figures/separate_modeling/final_test_evaluation.png",
+      "bytes": 139252
+    },
+    {
+      "path": "outputs/figures/separate_modeling/gradient_boosting_learning_curve.png",
+      "bytes": 37535
+    },
+    {
+      "path": "outputs/figures/separate_modeling/gradient_boosting_validation.png",
+      "bytes": 56854
+    },
+    {
+      "path": "outputs/figures/separate_modeling/logistic_regression_learning_curve.png",
+      "bytes": 37727
+    },
+    {
+      "path": "outputs/figures/separate_modeling/logistic_regression_validation.png",
+      "bytes": 56618
+    },
+    {
+      "path": "outputs/figures/separate_modeling/optimization_learning_curves.png",
+      "bytes": 160735
+    },
+    {
+      "path": "outputs/figures/separate_modeling/random_forest_learning_curve.png",
+      "bytes": 36567
+    },
+    {
+      "path": "outputs/figures/separate_modeling/random_forest_validation.png",
+      "bytes": 57014
+    },
+    {
+      "path": "outputs/figures/separate_modeling/train_test_accuracy_comparison.png",
+      "bytes": 84147
+    },
+    {
+      "path": "src/__pycache__/accuracy_experiments.cpython-312.pyc",
+      "bytes": 21664
+    },
+    {
+      "path": "src/__pycache__/build_clean_report.cpython-312.pyc",
+      "bytes": 6042
+    },
+    {
+      "path": "src/__pycache__/clean_optimization.cpython-312.pyc",
+      "bytes": 12361
+    },
+    {
+      "path": "src/__pycache__/fit_controls.cpython-312.pyc",
+      "bytes": 13078
+    },
+    {
+      "path": "src/__pycache__/model_workflow.cpython-312.pyc",
+      "bytes": 16127
+    },
+    {
+      "path": "src/__pycache__/optimization_report.cpython-312.pyc",
+      "bytes": 8621
+    },
+    {
+      "path": "src/__pycache__/selected_model_assessment.cpython-312.pyc",
+      "bytes": 5842
+    },
+    {
+      "path": "src/__pycache__/test_fit_controls.cpython-312.pyc",
+      "bytes": 3983
+    },
+    {
+      "path": "src/audit_clean_fitting.py",
+      "bytes": 5276
+    },
+    {
+      "path": "src/build_clean_report.py",
+      "bytes": 6393
+    },
+    {
+      "path": "src/build_four_model_notebooks.py",
+      "bytes": 4949
+    },
+    {
+      "path": "src/build_model_comparison.py",
+      "bytes": 4701
+    },
+    {
+      "path": "src/clean_notebook_layout.py",
+      "bytes": 2879
+    },
+    {
+      "path": "src/clean_optimization.py",
+      "bytes": 8520
+    },
+    {
+      "path": "src/ensemble_accuracy.py",
+      "bytes": 5928
+    },
+    {
+      "path": "src/finalize_four_models.py",
+      "bytes": 6939
+    },
+    {
+      "path": "src/fit_controls.py",
+      "bytes": 8936
+    },
+    {
+      "path": "src/optimization_report.py",
+      "bytes": 6933
+    },
+    {
+      "path": "src/refresh_submission_docs.py",
+      "bytes": 43583
+    },
+    {
+      "path": "src/selected_model_assessment.py",
+      "bytes": 4263
+    },
+    {
+      "path": "src/test_fit_controls.py",
+      "bytes": 2053
+    },
+    {
+      "path": "src/update_accuracy_notebooks.py",
+      "bytes": 12614
+    },
+    {
+      "path": "src/verify_accuracy_workflow.py",
+      "bytes": 4933
+    },
+    {
+      "path": "src/write_accuracy_review.py",
+      "bytes": 9141
+    },
+    {
+      "path": "outputs/tables/all_models_split_metrics.csv",
+      "bytes": 6780
+    },
+    {
+      "path": "outputs/tables/all_models_test_predictions.csv",
+      "bytes": 414284
+    },
+    {
+      "path": "outputs/tables/decision_tree_cv.csv",
+      "bytes": 19860
+    },
+    {
+      "path": "outputs/tables/decision_tree_learning_curve.csv",
+      "bytes": 495
+    },
+    {
+      "path": "outputs/tables/decision_tree_metrics.csv",
+      "bytes": 444
+    },
+    {
+      "path": "outputs/tables/decision_tree_thresholds.csv",
+      "bytes": 15937
+    },
+    {
+      "path": "outputs/tables/decision_tree_validation_predictions.csv",
+      "bytes": 65030
+    },
+    {
+      "path": "outputs/tables/error_analysis_summary.csv",
+      "bytes": 72
+    },
+    {
+      "path": "outputs/tables/executive_evidence_snapshot.json",
+      "bytes": 3368
+    },
+    {
+      "path": "outputs/tables/final_test_metrics.csv",
+      "bytes": 270
+    },
+    {
+      "path": "outputs/tables/fit_control_repeated_cv.csv",
+      "bytes": 2661
+    },
+    {
+      "path": "outputs/tables/fit_control_status.csv",
+      "bytes": 3061
+    },
+    {
+      "path": "outputs/tables/gradient_boosting_cv.csv",
+      "bytes": 20749
+    },
+    {
+      "path": "outputs/tables/gradient_boosting_learning_curve.csv",
+      "bytes": 491
+    },
+    {
+      "path": "outputs/tables/gradient_boosting_metrics.csv",
+      "bytes": 455
+    },
+    {
+      "path": "outputs/tables/gradient_boosting_thresholds.csv",
+      "bytes": 16377
+    },
+    {
+      "path": "outputs/tables/gradient_boosting_validation_predictions.csv",
+      "bytes": 64764
+    },
+    {
+      "path": "outputs/tables/hist_gradient_boosting_cv.csv",
+      "bytes": 86814
+    },
+    {
+      "path": "outputs/tables/hist_gradient_boosting_learning_curve.csv",
+      "bytes": 493
+    },
+    {
+      "path": "outputs/tables/hist_gradient_boosting_metrics.csv",
+      "bytes": 463
+    },
+    {
+      "path": "outputs/tables/hist_gradient_boosting_thresholds.csv",
+      "bytes": 3180
+    },
+    {
+      "path": "outputs/tables/hist_gradient_boosting_validation_predictions.csv",
+      "bytes": 64802
+    },
+    {
+      "path": "outputs/tables/kernel_logistic_regression_cv.csv",
+      "bytes": 90623
+    },
+    {
+      "path": "outputs/tables/kernel_logistic_regression_learning_curve.csv",
+      "bytes": 482
+    },
+    {
+      "path": "outputs/tables/kernel_logistic_regression_metrics.csv",
+      "bytes": 472
+    },
+    {
+      "path": "outputs/tables/kernel_logistic_regression_thresholds.csv",
+      "bytes": 3180
+    },
+    {
+      "path": "outputs/tables/kernel_logistic_regression_validation_predictions.csv",
+      "bytes": 64880
+    },
+    {
+      "path": "outputs/tables/logistic_regression_cv.csv",
+      "bytes": 6919
+    },
+    {
+      "path": "outputs/tables/logistic_regression_learning_curve.csv",
+      "bytes": 496
+    },
+    {
+      "path": "outputs/tables/logistic_regression_metrics.csv",
+      "bytes": 456
+    },
+    {
+      "path": "outputs/tables/logistic_regression_thresholds.csv",
+      "bytes": 17008
+    },
+    {
+      "path": "outputs/tables/logistic_regression_validation_predictions.csv",
+      "bytes": 64860
+    },
+    {
+      "path": "outputs/tables/model_comparison_table.csv",
+      "bytes": 4302
+    },
+    {
+      "path": "outputs/tables/optimization_accuracy_summary.csv",
+      "bytes": 4280
+    },
+    {
+      "path": "outputs/tables/optimized_decision_tree_cv.csv",
+      "bytes": 85130
+    },
+    {
+      "path": "outputs/tables/optimized_decision_tree_learning_curve.csv",
+      "bytes": 497
+    },
+    {
+      "path": "outputs/tables/optimized_decision_tree_metrics.csv",
+      "bytes": 464
+    },
+    {
+      "path": "outputs/tables/optimized_decision_tree_thresholds.csv",
+      "bytes": 3147
+    },
+    {
+      "path": "outputs/tables/optimized_decision_tree_validation_predictions.csv",
+      "bytes": 65030
+    },
+    {
+      "path": "outputs/tables/optimized_logistic_regression_cv.csv",
+      "bytes": 77776
+    },
+    {
+      "path": "outputs/tables/optimized_logistic_regression_learning_curve.csv",
+      "bytes": 495
+    },
+    {
+      "path": "outputs/tables/optimized_logistic_regression_metrics.csv",
+      "bytes": 478
+    },
+    {
+      "path": "outputs/tables/optimized_logistic_regression_thresholds.csv",
+      "bytes": 3181
+    },
+    {
+      "path": "outputs/tables/optimized_logistic_regression_validation_predictions.csv",
+      "bytes": 64844
+    },
+    {
+      "path": "outputs/tables/optimized_random_forest_cv.csv",
+      "bytes": 85117
+    },
+    {
+      "path": "outputs/tables/optimized_random_forest_learning_curve.csv",
+      "bytes": 480
+    },
+    {
+      "path": "outputs/tables/optimized_random_forest_metrics.csv",
+      "bytes": 462
+    },
+    {
+      "path": "outputs/tables/optimized_random_forest_thresholds.csv",
+      "bytes": 3186
+    },
+    {
+      "path": "outputs/tables/optimized_random_forest_validation_predictions.csv",
+      "bytes": 64864
+    },
+    {
+      "path": "outputs/tables/random_forest_cv.csv",
+      "bytes": 21914
+    },
+    {
+      "path": "outputs/tables/random_forest_learning_curve.csv",
+      "bytes": 493
+    },
+    {
+      "path": "outputs/tables/random_forest_metrics.csv",
+      "bytes": 444
+    },
+    {
+      "path": "outputs/tables/random_forest_thresholds.csv",
+      "bytes": 16539
+    },
+    {
+      "path": "outputs/tables/random_forest_validation_predictions.csv",
+      "bytes": 64847
+    },
+    {
+      "path": "outputs/tables/selected_model_fit_assessment.csv",
+      "bytes": 474
+    },
+    {
+      "path": "outputs/tables/soft_voting_cv.csv",
+      "bytes": 79
+    },
+    {
+      "path": "outputs/tables/soft_voting_learning_curve.csv",
+      "bytes": 494
+    },
+    {
+      "path": "outputs/tables/soft_voting_metrics.csv",
+      "bytes": 444
+    },
+    {
+      "path": "outputs/tables/soft_voting_thresholds.csv",
+      "bytes": 3182
+    },
+    {
+      "path": "outputs/tables/soft_voting_validation_predictions.csv",
+      "bytes": 64860
+    },
+    {
+      "path": "outputs/tables/spline_logistic_regression_cv.csv",
+      "bytes": 90501
+    },
+    {
+      "path": "outputs/tables/spline_logistic_regression_learning_curve.csv",
+      "bytes": 494
+    },
+    {
+      "path": "outputs/tables/spline_logistic_regression_metrics.csv",
+      "bytes": 473
+    },
+    {
+      "path": "outputs/tables/spline_logistic_regression_thresholds.csv",
+      "bytes": 3181
+    },
+    {
+      "path": "outputs/tables/spline_logistic_regression_validation_predictions.csv",
+      "bytes": 64854
+    },
+    {
+      "path": "outputs/tables/split_manifest.csv",
+      "bytes": 357707
+    },
+    {
+      "path": "outputs/tables/temporal_split_summary.csv",
+      "bytes": 319
+    },
+    {
+      "path": "outputs/tables/threshold_analysis.csv",
+      "bytes": 15720
+    },
+    {
+      "path": "outputs/tables/train_test_accuracy_summary.csv",
+      "bytes": 4066
+    },
+    {
+      "path": "debug.log",
+      "bytes": 157
+    },
+    {
+      "path": "data/processed/final_test_predictions.csv",
+      "bytes": 194989
+    },
+    {
+      "path": "data/processed/model_predictions.csv",
+      "bytes": 234165
+    },
+    {
+      "path": "data/processed/snapshot_model_predictions.csv",
+      "bytes": 1134484
+    },
+    {
+      "path": "prepare_cleanup.py",
+      "bytes": 8161
+    }
+  ],
+  "deletion_targets": [
+    "outputs/archive",
+    "outputs/review",
+    "outputs/figures/separate_modeling",
+    "outputs/models",
+    "src/__pycache__",
+    "src/audit_clean_fitting.py",
+    "src/build_clean_report.py",
+    "src/build_four_model_notebooks.py",
+    "src/build_model_comparison.py",
+    "src/clean_notebook_layout.py",
+    "src/clean_optimization.py",
+    "src/ensemble_accuracy.py",
+    "src/finalize_four_models.py",
+    "src/fit_controls.py",
+    "src/optimization_report.py",
+    "src/refresh_submission_docs.py",
+    "src/selected_model_assessment.py",
+    "src/test_fit_controls.py",
+    "src/update_accuracy_notebooks.py",
+    "src/verify_accuracy_workflow.py",
+    "src/write_accuracy_review.py",
+    "outputs/tables/all_models_split_metrics.csv",
+    "outputs/tables/all_models_test_predictions.csv",
+    "outputs/tables/decision_tree_cv.csv",
+    "outputs/tables/decision_tree_learning_curve.csv",
+    "outputs/tables/decision_tree_metrics.csv",
+    "outputs/tables/decision_tree_thresholds.csv",
+    "outputs/tables/decision_tree_validation_predictions.csv",
+    "outputs/tables/error_analysis_summary.csv",
+    "outputs/tables/executive_evidence_snapshot.json",
+    "outputs/tables/final_test_metrics.csv",
+    "outputs/tables/fit_control_repeated_cv.csv",
+    "outputs/tables/fit_control_status.csv",
+    "outputs/tables/gradient_boosting_cv.csv",
+    "outputs/tables/gradient_boosting_learning_curve.csv",
+    "outputs/tables/gradient_boosting_metrics.csv",
+    "outputs/tables/gradient_boosting_thresholds.csv",
+    "outputs/tables/gradient_boosting_validation_predictions.csv",
+    "outputs/tables/hist_gradient_boosting_cv.csv",
+    "outputs/tables/hist_gradient_boosting_learning_curve.csv",
+    "outputs/tables/hist_gradient_boosting_metrics.csv",
+    "outputs/tables/hist_gradient_boosting_thresholds.csv",
+    "outputs/tables/hist_gradient_boosting_validation_predictions.csv",
+    "outputs/tables/kernel_logistic_regression_cv.csv",
+    "outputs/tables/kernel_logistic_regression_learning_curve.csv",
+    "outputs/tables/kernel_logistic_regression_metrics.csv",
+    "outputs/tables/kernel_logistic_regression_thresholds.csv",
+    "outputs/tables/kernel_logistic_regression_validation_predictions.csv",
+    "outputs/tables/logistic_regression_cv.csv",
+    "outputs/tables/logistic_regression_learning_curve.csv",
+    "outputs/tables/logistic_regression_metrics.csv",
+    "outputs/tables/logistic_regression_thresholds.csv",
+    "outputs/tables/logistic_regression_validation_predictions.csv",
+    "outputs/tables/model_comparison_table.csv",
+    "outputs/tables/optimization_accuracy_summary.csv",
+    "outputs/tables/optimized_decision_tree_cv.csv",
+    "outputs/tables/optimized_decision_tree_learning_curve.csv",
+    "outputs/tables/optimized_decision_tree_metrics.csv",
+    "outputs/tables/optimized_decision_tree_thresholds.csv",
+    "outputs/tables/optimized_decision_tree_validation_predictions.csv",
+    "outputs/tables/optimized_logistic_regression_cv.csv",
+    "outputs/tables/optimized_logistic_regression_learning_curve.csv",
+    "outputs/tables/optimized_logistic_regression_metrics.csv",
+    "outputs/tables/optimized_logistic_regression_thresholds.csv",
+    "outputs/tables/optimized_logistic_regression_validation_predictions.csv",
+    "outputs/tables/optimized_random_forest_cv.csv",
+    "outputs/tables/optimized_random_forest_learning_curve.csv",
+    "outputs/tables/optimized_random_forest_metrics.csv",
+    "outputs/tables/optimized_random_forest_thresholds.csv",
+    "outputs/tables/optimized_random_forest_validation_predictions.csv",
+    "outputs/tables/random_forest_cv.csv",
+    "outputs/tables/random_forest_learning_curve.csv",
+    "outputs/tables/random_forest_metrics.csv",
+    "outputs/tables/random_forest_thresholds.csv",
+    "outputs/tables/random_forest_validation_predictions.csv",
+    "outputs/tables/selected_model_fit_assessment.csv",
+    "outputs/tables/soft_voting_cv.csv",
+    "outputs/tables/soft_voting_learning_curve.csv",
+    "outputs/tables/soft_voting_metrics.csv",
+    "outputs/tables/soft_voting_thresholds.csv",
+    "outputs/tables/soft_voting_validation_predictions.csv",
+    "outputs/tables/spline_logistic_regression_cv.csv",
+    "outputs/tables/spline_logistic_regression_learning_curve.csv",
+    "outputs/tables/spline_logistic_regression_metrics.csv",
+    "outputs/tables/spline_logistic_regression_thresholds.csv",
+    "outputs/tables/spline_logistic_regression_validation_predictions.csv",
+    "outputs/tables/split_manifest.csv",
+    "outputs/tables/temporal_split_summary.csv",
+    "outputs/tables/threshold_analysis.csv",
+    "outputs/tables/train_test_accuracy_summary.csv",
+    "debug.log",
+    "data/processed/final_test_predictions.csv",
+    "data/processed/model_predictions.csv",
+    "data/processed/snapshot_model_predictions.csv",
+    "prepare_cleanup.py"
+  ],
+  "preserved": "All nine active notebooks, raw data, active preprocessing outputs, four final models, current documentation and necessary runtime/audit evidence. Local .venv retained but excluded from ZIP."
+}

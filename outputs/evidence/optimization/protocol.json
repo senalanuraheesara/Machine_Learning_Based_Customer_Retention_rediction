@@ -1,0 +1,8 @@
+{
+  "fingerprint": "4d1cb943f51e641ec287113ab684d7345a7c84bf1b93f8458088adcdec90b73d",
+  "seed": 42,
+  "search_iterations": 32,
+  "selection": "Highest validation accuracy among eligible models; exact ties use CV accuracy then name",
+  "controls": "Train-CV and train-validation gaps <= 5pp; both CV means >= training majority + 3pp; search capacity loss <= 1pp",
+  "limitations": "Repeated CV is a stability screen, not nested CV. Validation and test have been reused; confirm on fresh future data."
+}

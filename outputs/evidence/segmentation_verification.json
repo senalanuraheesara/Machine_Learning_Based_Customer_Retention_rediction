@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "customers": 1696,
+  "cluster_sizes": {
+    "0": 1577,
+    "1": 119
+  },
+  "silhouette": 0.6895172558744451,
+  "scikit_learn": "1.9.1",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "checks": "Executed notebook, assignment identity, source alignment, counts, outcomes, metrics and Markdown links"
+}

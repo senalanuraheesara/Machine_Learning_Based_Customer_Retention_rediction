@@ -1,0 +1,40 @@
+{
+  "model": "random_forest",
+  "fingerprint": "4d1cb943f51e641ec287113ab684d7345a7c84bf1b93f8458088adcdec90b73d",
+  "rule": "Highest validation accuracy among fitting-eligible variants within each family, then across the four families; exact ties use CV accuracy and name.",
+  "limitations": "Validation and test were previously inspected. Scores are reused-holdout results; no guarantee of zero fitting risk.",
+  "variants": [
+    {
+      "Model": "logistic_regression",
+      "Source": "optimized_logistic_regression",
+      "Threshold": 0.425,
+      "Validation accuracy": 0.6828767123287671,
+      "CV accuracy": 0.6918255503361888,
+      "Threshold-matched CV gap": 0.0081023834518814
+    },
+    {
+      "Model": "decision_tree",
+      "Source": "decision_tree",
+      "Threshold": 0.425,
+      "Validation accuracy": 0.660958904109589,
+      "CV accuracy": 0.6821958183660312,
+      "Threshold-matched CV gap": 0.0116304760898439
+    },
+    {
+      "Model": "random_forest",
+      "Source": "random_forest",
+      "Threshold": 0.425,
+      "Validation accuracy": 0.6863013698630137,
+      "CV accuracy": 0.6958782352399373,
+      "Threshold-matched CV gap": 0.0414936245966497
+    },
+    {
+      "Model": "gradient_boosting",
+      "Source": "gradient_boosting",
+      "Threshold": 0.375,
+      "Validation accuracy": 0.6787671232876712,
+      "CV accuracy": 0.6953731847348869,
+      "Threshold-matched CV gap": 0.0240299154563191
+    }
+  ]
+}

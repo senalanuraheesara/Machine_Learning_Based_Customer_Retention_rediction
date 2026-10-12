@@ -1,0 +1,56 @@
+{
+  "model": "gradient_boosting",
+  "fingerprint": "4d1cb943f51e641ec287113ab684d7345a7c84bf1b93f8458088adcdec90b73d",
+  "bundle_sha256": "42996439815710499e0fbc60a0594349e0c08f2ca7f880d6b29ff39d3d314f40",
+  "python": "3.14.3",
+  "sklearn": "1.9.1",
+  "folds": 3,
+  "fold_seed": 42,
+  "status": "Newly computed tuning run; published models unchanged",
+  "limitation": "Not nested CV or independent temporal validation; holdouts were reused during development.",
+  "search_seed": 73,
+  "n_iter": 32,
+  "parameter_grid": {
+    "model__n_estimators": [
+      60,
+      80,
+      120,
+      240
+    ],
+    "model__learning_rate": [
+      0.025,
+      0.05,
+      0.1
+    ],
+    "model__max_depth": [
+      1,
+      2,
+      3
+    ],
+    "model__min_samples_leaf": [
+      40,
+      60,
+      80,
+      120
+    ],
+    "model__subsample": [
+      0.7,
+      1.0
+    ]
+  },
+  "best_cv_accuracy": 0.6953685794111326,
+  "selected_index": 22,
+  "chosen_params": {
+    "model__subsample": 1.0,
+    "model__n_estimators": 240,
+    "model__min_samples_leaf": 120,
+    "model__max_depth": 1,
+    "model__learning_rate": 0.025
+  },
+  "selected_cv_accuracy": 0.6953685794111326,
+  "threshold": 0.4,
+  "validation_accuracy": 0.6801369863013699,
+  "train_validation_gap": 0.010652487382840636,
+  "eligible": true,
+  "note": "Training-CV candidate with validation threshold only. No test scoring, automatic promotion or cross-family selection; repeat/threshold-matched audit required before promotion."
+}

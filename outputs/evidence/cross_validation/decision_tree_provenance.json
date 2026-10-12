@@ -1,0 +1,11 @@
+{
+  "model": "decision_tree",
+  "fingerprint": "4d1cb943f51e641ec287113ab684d7345a7c84bf1b93f8458088adcdec90b73d",
+  "bundle_sha256": "b50e5d564dedeb5e7483fde54f4df03db32a6854cfc99ca46582b8d95f32a092",
+  "python": "3.12.14",
+  "sklearn": "1.9.1",
+  "folds": 3,
+  "fold_seed": 42,
+  "status": "Newly computed diagnostic; clones fitted only on training folds",
+  "limitation": "Not nested CV or independent temporal validation; holdouts were reused during development."
+}

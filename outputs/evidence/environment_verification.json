@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "sklearn": "1.9.1",
+  "models": {
+    "decision_tree.joblib": {
+      "stored_sklearn_versions": [
+        "1.9.1"
+      ],
+      "sha256": "b50e5d564dedeb5e7483fde54f4df03db32a6854cfc99ca46582b8d95f32a092"
+    },
+    "gradient_boosting.joblib": {
+      "stored_sklearn_versions": [
+        "1.9.1"
+      ],
+      "sha256": "42996439815710499e0fbc60a0594349e0c08f2ca7f880d6b29ff39d3d314f40"
+    },
+    "logistic_regression.joblib": {
+      "stored_sklearn_versions": [
+        "1.9.1"
+      ],
+      "sha256": "6243c4efb4775db5541e7158155461e62073b8663153d2a1d935d46b5f7d3e6c"
+    },
+    "random_forest.joblib": {
+      "stored_sklearn_versions": [
+        "1.9.1"
+      ],
+      "sha256": "2ee60346051d5819e5b277dfb1e6d86b9077973b8da662259a8d866e64186bba"
+    }
+  },
+  "checks": "pip check, serialized estimator versions, 12 saved accuracy scores, fingerprints and selection",
+  "scope": "Fresh local virtual environment; not a separate physical computer or another operating system"
+}

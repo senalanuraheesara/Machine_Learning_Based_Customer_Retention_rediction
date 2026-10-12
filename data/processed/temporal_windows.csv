@@ -1,0 +1,4 @@
+Window,Start,End,Purpose
+Observation,2010-12-01 00:00:00,2011-09-30 23:59:59,Build features
+Prediction point,2011-09-30 23:59:59,2011-09-30 23:59:59,Freeze information available to model
+Outcome,2011-10-01 00:00:00,2011-12-09 23:59:59,Define active or inactive target

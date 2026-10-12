@@ -1,0 +1,5 @@
+Model,Source,Threshold,Validation accuracy,CV accuracy,Threshold-matched CV gap,Training accuracy,Test accuracy,Train-test gap,Selected,Fit assessment,Fit eligible
+random_forest,random_forest,0.425,0.6863013698630137,0.6958782352399373,0.0414936245966497,0.7155870445344129,0.6712414223331253,0.0443456222012875,True,Passes current screens; not proof of zero fitting risk,True
+logistic_regression,optimized_logistic_regression,0.425,0.6828767123287671,0.6918255503361888,0.0081023834518814,0.6867408906882592,0.6737367436057392,0.0130041470825199,False,Passes current screens; not proof of zero fitting risk,True
+gradient_boosting,gradient_boosting,0.375,0.6787671232876712,0.6953731847348869,0.0240299154563191,0.6720647773279352,0.6587648159700561,0.0132999613578791,False,Passes current screens; not proof of zero fitting risk,True
+decision_tree,decision_tree,0.425,0.660958904109589,0.6821958183660312,0.0116304760898439,0.652834008097166,0.6568933250155957,-0.0040593169184297,False,Passes current screens; not proof of zero fitting risk,True

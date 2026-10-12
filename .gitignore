@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+.repro-venv/
+.segmentation-venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Repro check
+.repro-check/
+
+# Logs
+*.log
+
+# Large data files (if any)
+*.csv.gz

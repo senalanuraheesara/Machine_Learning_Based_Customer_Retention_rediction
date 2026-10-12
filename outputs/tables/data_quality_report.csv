@@ -1,0 +1,9 @@
+Issue,Severity,Count,Percentage of rows,Business impact,Proposed handling
+Missing Description,Medium,1454,0.268,Reduces completeness of analysis,Investigate and document treatment
+Missing CustomerID,High,135080,24.927,Prevents reliable customer-level attribution,Drop from customer-level modeling; retain in transaction audit
+Exact duplicate rows,Medium,5268,0.972,May inflate transaction counts and revenue,Remove exact duplicates only
+Negative Quantity,Medium,10624,1.96,Represents returns or cancellations and affects net value,Investigate and net or retain as return behavior
+Zero or negative UnitPrice,High,2517,0.464,Creates invalid or misleading revenue,Remove from monetary calculations after investigation
+Cancelled invoice number,Medium,9288,1.714,Signals cancelled transactions and customer dissatisfaction,Track and net where possible
+Quantity IQR outliers,Medium,58619,10.817,Extreme orders can dominate aggregate features,Inspect visually; cap only for modeling if justified
+UnitPrice IQR outliers,Medium,39627,7.312,Extreme prices can distort monetary features,Inspect visually; cap only for modeling if justified

@@ -1,0 +1,2 @@
+criterion,threshold,customers_before,customers_after,customers_removed
+minimum unique invoices in observation window,3,3658,1696,1962

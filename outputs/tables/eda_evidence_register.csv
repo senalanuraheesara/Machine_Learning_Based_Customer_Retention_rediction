@@ -1,0 +1,11 @@
+Evidence,Modeling implication
+Peak transaction month: 2011-11; transaction counts vary by month.,Use time-aware features and splits; account for seasonal demand.
+"10,624 rows have negative quantities.",Identify returns and cancellations before calculating customer spend.
+24.9% of rows have no CustomerID.,Exclude rows without a customer ID from customer-level features.
+70.0% of identified customers have more than one invoice.,Separate repeat customers from one-time customers when building segments.
+The top 10% of identified customers account for 60.0% of non-negative customer spend.,Consider spend concentration when selecting customer-value measures.
+Customer recency has a median of 49 days and an interquartile range of 126 days.,Use recency as a customer feature and define the observation cutoff consistently.
+Customers have a median product breadth of 35 distinct stock codes.,Use distinct products purchased as a behavioral feature.
+United Kingdom contributes 84.6% of positive line revenue.,Check whether geographic concentration affects market comparisons.
+"9,288 rows have cancellation-style invoice identifiers.",Treat cancellation records explicitly during revenue and behavior calculations.
+650 stock codes have multiple recorded descriptions.,Use StockCode as the product key; treat descriptions as labels.

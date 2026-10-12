@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "date": "2026-10-11",
+  "python": "3.14.3",
+  "environment": "Fresh .repro-venv installed from requirements-lock.txt",
+  "requirements_lock_sha256": "dc48c56f6b1e0ebfe58ba72c61d35dd8c26e1e43859082251dcccbb6bbc3b921",
+  "tested_archive_sha256": "0311dd42c8edfcbe05bbaf96fa1a5d6c4d849f66b76e5453196db1e8f2cab895",
+  "scope": "Extracted submission in .repro-check on the same Windows computer; no separate physical computer tested",
+  "checks": [
+    "pip check",
+    "All four stored sklearn versions equal 1.9.1",
+    "12 saved classifier accuracy checks",
+    "Fingerprint and selection checks",
+    "Segmentation export consistency",
+    "Full tuning artifact validation"
+  ],
+  "executed_notebooks": [
+    "04_segmentation.ipynb",
+    "03_05_model_comparison_selection.ipynb",
+    "FINAL_Four_Optimized_Models.ipynb"
+  ],
+  "note": "Final ZIP rebuilt afterward to include this evidence and updated documentation; tested code, models and requirements are unchanged."
+}

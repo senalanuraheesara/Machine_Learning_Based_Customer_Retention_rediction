@@ -1,0 +1,69 @@
+{
+  "fingerprint": "4d1cb943f51e641ec287113ab684d7345a7c84bf1b93f8458088adcdec90b73d",
+  "selected": "random_forest",
+  "accuracy_checks": [
+    {
+      "Model": "logistic_regression",
+      "Split": "train",
+      "Accuracy": 0.6867408906882592
+    },
+    {
+      "Model": "logistic_regression",
+      "Split": "validation",
+      "Accuracy": 0.6828767123287671
+    },
+    {
+      "Model": "logistic_regression",
+      "Split": "test",
+      "Accuracy": 0.6737367436057392
+    },
+    {
+      "Model": "decision_tree",
+      "Split": "train",
+      "Accuracy": 0.652834008097166
+    },
+    {
+      "Model": "decision_tree",
+      "Split": "validation",
+      "Accuracy": 0.660958904109589
+    },
+    {
+      "Model": "decision_tree",
+      "Split": "test",
+      "Accuracy": 0.6568933250155957
+    },
+    {
+      "Model": "random_forest",
+      "Split": "train",
+      "Accuracy": 0.7155870445344129
+    },
+    {
+      "Model": "random_forest",
+      "Split": "validation",
+      "Accuracy": 0.6863013698630137
+    },
+    {
+      "Model": "random_forest",
+      "Split": "test",
+      "Accuracy": 0.6712414223331253
+    },
+    {
+      "Model": "gradient_boosting",
+      "Split": "train",
+      "Accuracy": 0.6720647773279352
+    },
+    {
+      "Model": "gradient_boosting",
+      "Split": "validation",
+      "Accuracy": 0.6787671232876712
+    },
+    {
+      "Model": "gradient_boosting",
+      "Split": "test",
+      "Accuracy": 0.6587648159700561
+    }
+  ],
+  "markdown_files_checked": 20,
+  "notebooks_scanned": 9,
+  "note": "Saved pipelines rescored only; no fitting, CV rerun, or notebook execution."
+}

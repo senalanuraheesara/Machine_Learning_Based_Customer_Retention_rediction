@@ -1,0 +1,45 @@
+{
+  "model": "decision_tree",
+  "fingerprint": "4d1cb943f51e641ec287113ab684d7345a7c84bf1b93f8458088adcdec90b73d",
+  "bundle_sha256": "b50e5d564dedeb5e7483fde54f4df03db32a6854cfc99ca46582b8d95f32a092",
+  "python": "3.14.3",
+  "sklearn": "1.9.1",
+  "folds": 3,
+  "fold_seed": 42,
+  "status": "Newly computed tuning run; published models unchanged",
+  "limitation": "Not nested CV or independent temporal validation; holdouts were reused during development.",
+  "search_seed": 73,
+  "n_iter": 32,
+  "parameter_grid": {
+    "model__max_depth": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "model__min_samples_leaf": [
+      25,
+      30,
+      50,
+      100
+    ],
+    "model__ccp_alpha": [
+      0.001,
+      0.005,
+      0.01
+    ]
+  },
+  "best_cv_accuracy": 0.6821958183660312,
+  "selected_index": 4,
+  "chosen_params": {
+    "model__min_samples_leaf": 25,
+    "model__max_depth": 2,
+    "model__ccp_alpha": 0.001
+  },
+  "selected_cv_accuracy": 0.6821958183660312,
+  "threshold": 0.42500000000000004,
+  "validation_accuracy": 0.660958904109589,
+  "train_validation_gap": -0.008124896012423055,
+  "eligible": true,
+  "note": "Training-CV candidate with validation threshold only. No test scoring, automatic promotion or cross-family selection; repeat/threshold-matched audit required before promotion."
+}
