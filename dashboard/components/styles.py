@@ -384,11 +384,41 @@ def apply_custom_styles():
     
     /* Slider */
     .stSlider label {
-        color: #94a3b8 !important;
+        color: #e2e8f0 !important;
+        font-weight: 600 !important;
     }
     
     .stSlider [data-baseweb="slider"] {
         color: #f1f5f9 !important;
+    }
+    
+    /* Slider track */
+    .stSlider [data-baseweb="slider"] > div > div {
+        background-color: #334155 !important;
+    }
+    
+    /* Slider active track */
+    .stSlider [data-baseweb="slider"] > div > div > div {
+        background-color: #3b82f6 !important;
+    }
+    
+    /* Slider thumb/handle */
+    .stSlider [data-baseweb="slider"] [role="slider"] {
+        background-color: #3b82f6 !important;
+        border: 2px solid #f1f5f9 !important;
+        box-shadow: 0 2px 8px rgba(59, 130, 246, 0.5) !important;
+    }
+    
+    /* Slider value text */
+    .stSlider > div > div > div > div {
+        color: #f1f5f9 !important;
+    }
+    
+    /* Slider min/max labels */
+    .stSlider [data-testid="stTickBarMin"],
+    .stSlider [data-testid="stTickBarMax"] {
+        color: #cbd5e1 !important;
+        font-weight: 500 !important;
     }
     
     /* Number input */
